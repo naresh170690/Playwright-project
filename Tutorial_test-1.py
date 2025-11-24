@@ -7,5 +7,5 @@ with sync_playwright() as p:
    page.goto('https://google.com')
    print( page.url)
    print(page.title())
-   page.wait_for_timeout(5000)  # Wait for 3 seconds to see the browser
+   page.wait_for_timeout(3000)  # Wait for 3 seconds to see the browser
    browser.close()
